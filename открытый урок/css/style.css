@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("fonts/ProximaNova-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("fonts/ProximaNova-Semibold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("fonts/ProximaNova-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+header{
+    background-color: #BAD8E3;
+    height: 100vh;
+}
+
+nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin: 0 150px;
+    width: 100vw;
+}
+
+.nav-image{
+    width: 10vw;
+}
+
+.nav-links-block{
+    width: 60vw;
+}
+
+.nav-link{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+.account-block{
+    display: flex;
+    gap: 10px;
+    width: 30vw;
+}
+
+.sign-in-btn{
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #BAD8E3;
+    border: none;
+}
+
+.register-btn{
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1B213A;
+    color: #fff;
+}
+
+header hr{
+    width: 100vw;
+    border-color: #B8E0EE;
+}
+
+.header-main-wrapper{
+    display: flex;
+    margin: 0 150px;
+}
+
+.header-title{
+    width: 750px;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.header-desc{
+    width: 750px;
+    font-size: 21px;
+    font-weight: 400;
+}
+
