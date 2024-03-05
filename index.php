@@ -1,10 +1,5 @@
 <?php
-$userEmail = isset($_POST['email']) ? $_POST['email'] : false;
-if (preg_match("/[a-z]{1,}+@[a-z]/", $userEmail)) {
-    "<script>email введена верно.</script>";
-} else {
-    "<script>неправильно введена почта.</script>";
-}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
