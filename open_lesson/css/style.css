@@ -23,13 +23,14 @@
 }
 
 *{
-    font-family: "Proxima Nova";
     scrollbar-width: none;
 }
 
 header{
     background-color: #BAD8E3;
     height: 100vh;
+    font-family: "Proxima Nova";
+
 }
 
 nav{
@@ -114,7 +115,7 @@ header hr{
 }
 
 .header-desc{
-    width: 750px;
+    width: 720px;
     font-size: 21px;
     font-weight: 400;
     color: #666666;
@@ -144,6 +145,7 @@ color: #fff;
 
 .stats-elem-number span{
     color: #1B213A;
+    font-weight: 600;
 }
 
 .stats-elem-desc{
